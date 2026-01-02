@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>puck.party</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+    <script data-goatcounter="https://puck-party.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="main-header" class="cascadia-mono-700">Puck Party</h1>
+      <p class="cascadia-mono-700">Coming soon...</p>
+    </header>
+  </body>
+  <script>
+    function randomHeaderColor() {
+      var colors = [
+        '#275F68',
+        '#8523BE',
+        '#F62828',
+      ];
+      var random_color = colors[(Math.floor(
+            Math.random() * colors.length))];
+      var header = document.getElementById('main-header');
+      header.style.color = random_color;
+    }
+    randomHeaderColor();
+    </script>
+</html>

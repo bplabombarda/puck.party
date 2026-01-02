@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+  font-family: 'Cascadia Mono', monospace;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cascadia-mono-700> {
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  text-align: center;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+  color: #8523BE;
+} */
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* a {
+  color: #f62828;
+  color: #275F68;
+  color: #8523BE;
+} */
+
